@@ -25,7 +25,7 @@ jobs:
       run: python scan.py
 
     - name: Upload Excel
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: latest-excel
         path: "*.xlsx"
