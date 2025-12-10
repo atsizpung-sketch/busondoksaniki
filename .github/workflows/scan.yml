@@ -2,7 +2,7 @@ name: Kingdom Scan
 
 on:
   schedule:
-    - cron: "0 * * * *"  # Every hour
+    - cron: "0 * * * *"  # Her saat başı çalışacak
   workflow_dispatch:
 
 jobs:
